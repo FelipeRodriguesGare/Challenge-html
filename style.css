@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-.Main_Element{ 
+.mainElement{ 
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -45,14 +45,14 @@ h2{
     flex-direction: column;
 }
 
-#Name{
+#name{
     padding-top: 10px;
     color: #21869e;
     font-size: 40px;
     font-weight: 600;
 }
 
-#Ocupation{
+#ocupation{
     position: relative;
     top: 8px;
     text-align: center;
@@ -67,7 +67,7 @@ h2{
 
 }
 
-Section{
+section{
     padding: 10px;
 }
 
@@ -84,25 +84,25 @@ h3{
     font-size: medium;
 }
 
-.Skills_List{
+.skillsList{
     display: flex;
     justify-content:space-between;
     align-items: center;
     overflow-x: visible;
 }
 
-.Skills_List ul{
+.skillsList ul{
     list-style-type: none;  
     margin-left: 0;
     width: auto;
 
 }
 
-.Skills_List li div{
+.skillsList li div{
     word-break: break-all;
 }
 
-.Contact ul{
+.contact ul{
     list-style-type: none;  
     margin-left: 0;
 }
